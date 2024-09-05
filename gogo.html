@@ -1,0 +1,25 @@
+<head>
+    <style> 
+        .c1 {
+            width: 100px;
+            height: 100px;
+            background: blue;
+            position: relative;
+            animation: colorbox 5s linear infinite;
+            animation-direction: alternate;
+	    transition-duration: 35s;
+        }
+        @keyframes colorbox {
+            from { background: red; left: 0px;  }
+            15% { background: orange; left: 50px;  }
+            30% { background: yellow; left: 100px;  }
+            45% { background: green; left: 150px;  }
+	    60% { background: blue; left: 200px;  }
+	    75% { background: navy; left: 250px;  }
+            to { background: purple; left: 300px;  }
+        }
+    </style>
+</head>
+<body>
+    <div class="c1"></div>
+</body>
